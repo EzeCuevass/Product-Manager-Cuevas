@@ -71,7 +71,7 @@ class ProductManager{
     deleteProduct(idproducto){
         const indexProduct = this.products.find(e => {
             if( e.id === idproducto){
-                indexof
+
             } else {
                 console.log("not found");
             }
@@ -83,9 +83,4 @@ class ProductManager{
 console.log("Iniciando programa");
 
 let product= new ProductManager()
-product.addProduct("mota", "rica", 3, "lol", 5, 2)
-product.addProduct("chicos", "polo", 0, "lol", 45, 3)
-// product.getProductById(1)
-product.deleteProduct(1)
-// product.updateProduct(1,"gordo", "rolin", 4, "backup" , 7 , 6)
-// console.log(product.getProducts());
+
